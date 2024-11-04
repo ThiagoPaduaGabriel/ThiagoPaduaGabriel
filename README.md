@@ -25,6 +25,22 @@ O programa executa uma vez e termina após mostrar o resultado. Se você quiser 
 A aparência exata pode variar ligeiramente dependendo do sistema operacional e do terminal que você está usando, mas o conteúdo e a interação serão essencialmente os mesmos.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TESTE 2 -
+
+Estrutura do Teste
+
+describe: Agrupa testes relacionados. Neste caso, está agrupando testes que verificam a funcionalidade de um botão.
+
+it: Define um caso de teste específico. Aqui, está testando se uma mensagem é exibida após o clique no botão.
+
+cy.visit: Navega até a URL especificada. Você deve substituir 'localhost:3000' pela URL real da sua aplicação.
+
+cy.get: Seleciona um elemento na página. Você deve substituir 'BOTAO' pelo seletor real do seu botão (por exemplo, '.btn-enviar' ou '#meuBotao').
+
+click: Simula um clique no elemento selecionado.
+
+should: Faz uma asserção sobre o estado do elemento. Aqui, está verificando se o elemento com o ID #mensagem está visível e contém o texto 'Enviado com sucesso!'.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TESTE 3 - 
 
