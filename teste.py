@@ -5,7 +5,7 @@ def eh_palindromo(palavra):
     return palavra == palavra[::-1]
 
 # Recebe a palavra do usuário
-entrada = input("")
+entrada = input("MIRIM")
 
 # Verifica se é um palíndromo e imprime o resultado
 if eh_palindromo(entrada):
